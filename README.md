@@ -6,19 +6,19 @@ An example has been included showing a basic `Viewport` that contains a Sub Pane
 
 Within the main application, the Navigator should be initialised with [Routes](#routes), the Sub Panel reference that will be used by the Navigator to display `Views`, and an [InitialRoute](#initialroute) can be provided. The `Dispose` method should be called when the app is shutdown.
 
-![Main Viewport VI LabVIEW block diagram](Images\image.png)
+![Main Viewport VI LabVIEW block diagram](Images/image.png)
 
 The [Routes](#routes) must be defined on initialisation.
 
-![Example Route Definition VI LabVIEW block diagram](Images\image-1.png)
+![Example Route Definition VI LabVIEW block diagram](Images/image-1.png)
 
 Each `NavigatableView` should inherit from the base [NavigatableView](#navigatableview) class. The [Launch](#launch) VI must be overridden to provide the VIReference, and to inject the NavigationEvents for use within the `View`.
 
-![NavigatableView Launcher VI LabVIEW block diagram](Images\image-5.png)
+![NavigatableView Launcher VI LabVIEW block diagram](Images/image-5.png)
 
 The stop event must e registered in the `View` event handler and must terminate the event handling loop. The [NavigatorEvents](#navigatorevents) can be used within the `View` to navigate to different pages within the app.
 
-![NavigatableView UI VI LabVIEW block diagram](Images\image-3.png)
+![NavigatableView UI VI LabVIEW block diagram](Images/image-3.png)
 
 ## Routes
 Routes are defined on initialisation. They consist of a [Name](#name), [Path](#path), and [Builder](#builder).
