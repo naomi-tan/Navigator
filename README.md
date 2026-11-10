@@ -1,2 +1,2 @@
 # Navigator
-LabVIEW implementation of a viewport and navigation functionality.
+LabVIEW implementation of an app navigator.
