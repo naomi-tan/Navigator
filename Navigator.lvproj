@@ -21,8 +21,10 @@
 			</Item>
 			<Item Name="Viewport.vi" Type="VI" URL="../Example/Viewport.vi"/>
 		</Item>
+		<Item Name="changelog.md" Type="Document" URL="../changelog.md"/>
 		<Item Name="NavigatableView.lvclass" Type="LVClass" URL="../NavigatableView/NavigatableView.lvclass"/>
 		<Item Name="Navigator.lvclass" Type="LVClass" URL="../Navigator/Navigator.lvclass"/>
+		<Item Name="README.md" Type="Document" URL="../README.md"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
